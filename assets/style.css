@@ -1,5 +1,8 @@
 * {
   font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 .head-modif {
@@ -9,6 +12,7 @@
 
 .active {
   margin: 0 10px;
+  color: #111;
 }
 
 .layout {
@@ -17,13 +21,19 @@
   margin-top: 100px;
 }
 
-.layout-big{
+.layout2 {
+  width: 800px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
+.layout-big {
   width: 1000px;
   margin: 0px auto;
   margin-top: 200px;
 }
 
-.layout-no-margin{
+.layout-no-margin {
   width: 1000px;
   margin: 0px auto;
 }
@@ -32,7 +42,7 @@
   margin-top: 50px;
 }
 
-.margin-layout-big{
+.margin-layout-big {
   margin-top: 100px;
 }
 
@@ -41,7 +51,6 @@
 }
 
 header {
-  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   background: #fff;
 }
 
@@ -76,93 +85,57 @@ header {
   color: #2356d9;
 }
 
-.border-set {
-  margin: 0 10px;
-  padding-top: 10px;
-}
-
-.border-set:hover {
-  border-top: solid 2px rgb(194, 194, 194);
-  border-radius: 10px;
-}
-
-.back img {
-  margin-right: 120px
-}
-
-.back {
-  transition: 0.3s;
-  opacity: 1;
-}
-
-.border-set:hover .back {
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.front {
-  opacity: 0;
-  z-index: 100;
-  position: absolute;
-  width: 30%;
-  transition: 0.3s;
-}
-
-.border-set:hover .front {
-  opacity: 1;
-  transition: 0.5s;
-}
-
 .box {
   align-items: center;
   text-align: center;
   background: #fff;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .200) !important;
   padding-top: 20px;
-  border-radius: 15px;
-  transition: 0.2s;
+  border-radius: 8px;
+  margin: 0 10px;
 }
 
-.box1 {
-  z-index: 10;
-  position: relative;
-  margin-right: -100px;
-}
-
-.box2 {
-  z-index: 20;
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: -20px;
-}
-
-.box3 {
-  z-index: 15;
-  position: relative;
-  margin-left: -100px;
-}
-
-.box:hover{
-  z-index: 25;
-  transform: scale(1.060);
-  transition: 0.3s;
-}
-
-.size{
+.size {
   width: 700px;
   height: 474px;
   margin: 0 auto;
 }
 
-.end-line{
+.end-line {
   border-top: 1px solid #b1b1b1;
+  padding-top: 50px;
+  margin-top: 100px;
 }
 
-.teks-modif p a{
+.teks-modif p a {
   text-decoration: none;
   color: rgb(139, 139, 139)
 }
 
-.teks-modif p a:hover{
+.teks-modif p a:hover {
   color: #2356d9;
+}
+
+.price-box {
+  margin: 0;
+}
+
+.price {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+}
+
+.price-info {
+  /* background: hsl(212, 100%, 87%); */
+  background: #f0f7ff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px 0;
+}
+
+.relative{
+  position: relative;
 }

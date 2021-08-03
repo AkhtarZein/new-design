@@ -139,3 +139,22 @@ header {
 .relative{
   position: relative;
 }
+
+.btn-modif{
+  background-image: linear-gradient(to bottom, #2650d7 ,rgb(77, 94, 247) );
+  width: fit-content;
+  padding: 7px 13px;
+  box-shadow: 1px 1px 10px #9b9b9b;
+  /* Border With Radius */
+  border-bottom-left-radius: 9.6px;
+  border-top-right-radius: 9.6px;
+  /*  */
+  font-size: 13px;
+  color: white;
+  /*  */
+  cursor: pointer;
+}
+
+.btn-modif:hover{
+  background: rgb(34, 72, 197);
+}

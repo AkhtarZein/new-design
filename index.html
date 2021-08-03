@@ -10,7 +10,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/image/sgara-logo2.png">
-  <script src="assets/index.js"></script>
+  <script>
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").style = "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important;";
+      } else {
+        document.getElementById("header").style = "box-shadow: none;";
+      }
+    }
+  </script>
   <title>Sgara</title>
 </head>
 
@@ -68,18 +80,23 @@
                 you and your farm colleagues can input, manage and keep track on all your farm's activites anytime
                 anywhere
               </p>
-              <button type="button" class="btn btn-primary px-4">
+              <!-- <button type="button" class="btn btn-primary px-4">
                 <b>Set Schedule Demo</b>
-              </button>
+              </button> -->
+              <a href="#"">
+                <div class=" btn-modif">
+                <b>Set Schedule Demo</b>
             </div>
-            <div class="col">
-              <img src="assets/image/tablet-android.png" width="500px">
-            </div>
+            </a>
+          </div>
+          <div class="col">
+            <img src="assets/image/tablet-android.png" width="500px">
           </div>
         </div>
       </div>
-      <img src="assets/image/memphis/memphis3.png" alt=""
-        style="position: absolute; top: 45%; z-index: -188; width: 100%;">
+    </div>
+    <img src="assets/image/memphis/memphis3.png" alt=""
+      style="position: absolute; top: 45%; z-index: -188; width: 100%;">
     </div>
   </section>
   <section>
@@ -129,7 +146,7 @@
     </div>
   </section>
   <section>
-    <div class="layout2">
+    <div class="layout2" style="position: relative;">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -138,9 +155,9 @@
               income and productivity
             </h2>
             <a href="#get-started">
-              <button type="button" class="btn btn-primary px-4">
+              <div class="btn-modif px-4">
                 <b>Get Started</b>
-              </button>
+              </div>
             </a>
           </div>
           <div class="col">
@@ -148,6 +165,7 @@
           </div>
         </div>
       </div>
+      <img src="assets/image/memphis/white-memphis.png" style="position: absolute; width: 300px; top: -40%; left:-20%; z-index: -1000;">
     </div>
   </section>
   <section class="sec1">
@@ -164,13 +182,18 @@
               management system, creating tailored
               programs from day one to harvest for
               every pond</p>
-            <button type="button" class="btn btn-primary px-3">
+            <!-- <button type="button" class="btn btn-primary px-3">
               <b>Learn More</b>
-            </button>
+            </button> -->
+            <a href="#"">
+              <div class=" btn-modif px-4">
+              <b>Learn More</b>
           </div>
-
+          </a>
         </div>
+
       </div>
+    </div>
     </div>
   </section>
   <section>
@@ -184,15 +207,20 @@
               Sgarahub is a marketplace to provide the best price for farmers’ inputs and outputs. Ranging from shrimp
               feed, probiotics, and chemicals needed to ensure the shrimp's progressive growth.
             </p>
-            <button type="button" class="btn btn-primary px-3">
+            <!-- <button type="button" class="btn btn-primary px-3">
               <b>Learn More</b>
-            </button>
+            </button> -->
+            <a href="#"">
+              <div class=" btn-modif px-4">
+              <b>Learn More</b>
           </div>
-          <div class="col text-center">
-            <img src="assets/image/phone/hub.png" width="200px">
-          </div>
+          </a>
+        </div>
+        <div class="col text-center">
+          <img src="assets/image/phone/hub.png" width="200px">
         </div>
       </div>
+    </div>
     </div>
     </div>
   </section>
@@ -210,12 +238,17 @@
               hatchery network through Computer Vision
               and AI.
             </p>
-            <button type="button" class="btn btn-primary px-3">
+            <!-- <button type="button" class="btn btn-primary px-3">
               <b>Learn More</b>
-            </button>
+            </button> -->
+            <a href="#"">
+              <div class=" btn-modif px-4">
+              <b>Learn More</b>
           </div>
+          </a>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <section id="get-started">
@@ -295,14 +328,19 @@
             <br>
             <br>
             <h4>Get started with Sgara</h4>
-            <button type="button" class="btn btn-primary px-3 py-1">
+            <!-- <button type="button" class="btn btn-primary px-3 py-1">
               <b>Get Free Access</b>
-            </button>
+            </button> -->
+            <a href="#"">
+              <div class=" btn-modif">
+              <b>Set Schedule Demo</b>
           </div>
+          </a>
         </div>
       </div>
-      <img src="assets/image/memphis/memphis2.svg" width="230px"
-        style="position: relative; z-index: -1; margin-top: -20%; margin-left: 45%;">
+    </div>
+    <img src="assets/image/memphis/memphis2.svg" width="230px"
+      style="position: relative; z-index: -1; margin-top: -20%; margin-left: 45%;">
     </div>
   </section>
   <section>

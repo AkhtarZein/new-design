@@ -51,7 +51,7 @@
 }
 
 header {
-  background: #fff;
+  background: transparent;
 }
 
 .intro {
@@ -71,6 +71,7 @@ header {
 
 .sec1 {
   background: #f0f7ff;
+  background-image: linear-gradient(to bottom right, hsl(212, 84%, 88%), #ffffff);
 }
 
 .garis {
@@ -136,18 +137,20 @@ header {
   padding: 15px 0;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.btn-modif{
-  background-image: linear-gradient(to bottom, #2650d7 ,rgb(77, 94, 247) );
+.btn-modif {
+  background-image: linear-gradient(to bottom, #2b5cff, rgb(101, 114, 233));
   width: fit-content;
   padding: 7px 13px;
   box-shadow: 1px 1px 10px #9b9b9b;
   /* Border With Radius */
-  border-bottom-left-radius: 9.6px;
-  border-top-right-radius: 9.6px;
+  /* border-bottom-left-radius: 9.6px;  */
+  border-bottom-left-radius: 15px;
+  /* border-top-right-radius: 9.6px; */
+  border-top-right-radius: 15px;
   /*  */
   font-size: 13px;
   color: white;
@@ -155,6 +158,6 @@ header {
   cursor: pointer;
 }
 
-.btn-modif:hover{
+.btn-modif:hover {
   background: rgb(34, 72, 197);
 }

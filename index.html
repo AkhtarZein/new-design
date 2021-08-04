@@ -17,9 +17,9 @@
 
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("header").style = "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important;";
+        document.getElementById("header").style = "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important; background: #fff; transition: 0.3s;";
       } else {
-        document.getElementById("header").style = "box-shadow: none;";
+        document.getElementById("header").style = "box-shadow: none; transition: 0.3s;";
       }
     }
   </script>
@@ -72,9 +72,9 @@
       <div class="layout">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col my-auto py-4" style="background: rgba(255, 255, 255, 0.932); border-radius: 7px;">
               <h4><b>Increasing shrimp farmer's efficiency through data</b></h4>
-              <p class="intro">
+              <p class="intro"">
                 With
                 <span>Sgarabook,</span>
                 you and your farm colleagues can input, manage and keep track on all your farm's activites anytime
@@ -95,8 +95,8 @@
         </div>
       </div>
     </div>
-    <img src="assets/image/memphis/memphis3.png" alt=""
-      style="position: absolute; top: 45%; z-index: -188; width: 100%;">
+    <img src="assets/image/background.jpg" alt=""
+      style="position: absolute; top: -130%; z-index: -188; width: 100%; opacity: 0.8;">
     </div>
   </section>
   <section>
@@ -136,7 +136,7 @@
             <p class="text-color-blue" style="font-size: 30pt;">With AI</p>
           </div>
           <div class="col">
-            <p style="font-size: 15pt; color: #9c9c9c; margin-bottom: 0px;">We interpret real-time data inputs from
+            <p style="font-size: 15pt; margin-bottom: 0px;">We interpret real-time data inputs from
               farms and provide insightful solutions. Assisting farmers with our end-to-end services such as farm
               management and access to suppliers
               nationwide.</p>
@@ -165,11 +165,12 @@
           </div>
         </div>
       </div>
-      <img src="assets/image/memphis/white-memphis.png" style="position: absolute; width: 300px; top: -40%; left:-20%; z-index: -1000;">
+      <img src="assets/image/memphis/white-memphis.png"
+        style="position: absolute; width: 300px; top: -40%; left:-10%; z-index: -1000;">
     </div>
   </section>
   <section class="sec1">
-    <div class="layout2">
+    <div class="layout2 py-4">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -178,6 +179,7 @@
           <div class="col my-auto">
             <img src="assets/image/product/sgara-book.png" width="180px">
             <h4>Smart Farm Management System</h4>
+            <br>
             <p>AI-driven web and mobile based farm
               management system, creating tailored
               programs from day one to harvest for
@@ -197,12 +199,13 @@
     </div>
   </section>
   <section>
-    <div class="layout2">
+    <div class="layout2 py-4">
       <div class="container">
         <div class="row">
           <div class="col my-auto">
             <img src="assets/image/product/sgara-hub.png" width="180px">
             <h4>Marketplace for Farmer’s Needs</h4>
+            <br>
             <p>
               Sgarahub is a marketplace to provide the best price for farmers’ inputs and outputs. Ranging from shrimp
               feed, probiotics, and chemicals needed to ensure the shrimp's progressive growth.
@@ -225,7 +228,7 @@
     </div>
   </section>
   <section class="sec1">
-    <div class="layout">
+    <div class="layout py-4">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -233,6 +236,7 @@
           </div>
           <div class="col my-auto">
             <img src="assets/image/product/sgara-hatchery.png" width="250px">
+            <br>
             <p>
               Procuring the best shrimp larvaes within our
               hatchery network through Computer Vision
@@ -252,7 +256,7 @@
     </div>
   </section>
   <section id="get-started">
-    <div class="layout">
+    <div class="layout" style="position: relative;">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -297,9 +301,14 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col text-center">
+            <img src="assets/image/memphis/fetures.svg" width="420px" style="margin-top: 40px ;">
+          </div>
+        </div>
       </div>
       <img src="assets/image/memphis/memphis2.svg" width="230px"
-        style="position: relative; z-index: 1; margin-top: -73%; margin-left: 10%; transform: rotate(90deg);">
+        style="position: absolute; z-index: -98; top: -5%; left: 5%; transform: rotate(90deg);">
     </div>
   </section>
 
@@ -313,6 +322,7 @@
             <img class="mx-3" src="assets/image/partnership/partnership1.png" width="150px">
             <img class="mx-3" src="assets/image/partnership/partnership2.png" width="150px">
             <img class="mx-3" src="assets/image/partnership/partnership3.png" width="150px">
+            <img class="mx-3" src="assets/image/partnership/partnership4.png" width="150px">
           </div>
         </div>
       </div>
@@ -323,7 +333,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <h2><b>Want to use Sgara?</b></h2>
+            <h2>Want to use Sgara?</h2>
             <img class="pt-3" src="assets/image/sgara-logo2.png">
             <br>
             <br>
@@ -331,16 +341,17 @@
             <!-- <button type="button" class="btn btn-primary px-3 py-1">
               <b>Get Free Access</b>
             </button> -->
-            <a href="#"">
-              <div class=" btn-modif">
-              <b>Set Schedule Demo</b>
+            <br>
+            <a href="#">
+              <div class="btn-modif px-4" style="margin: 0 auto;">
+                <b>Get Free Access</b>
+              </div>
+            </a>
           </div>
-          </a>
         </div>
       </div>
-    </div>
-    <img src="assets/image/memphis/memphis2.svg" width="230px"
-      style="position: relative; z-index: -1; margin-top: -20%; margin-left: 45%;">
+      <img src="assets/image/memphis/memphis2.svg" width="230px"
+        style="position: relative; z-index: -1; margin-top: -20%; margin-left: 45%;">
     </div>
   </section>
   <section>

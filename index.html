@@ -17,9 +17,11 @@
 
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("header").style = "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important; background: #fff; transition: 0.3s;";
+        document.getElementById("header").style = "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important;";
+        // background: #fff; transition: 0.3s;
       } else {
-        document.getElementById("header").style = "box-shadow: none; transition: 0.3s;";
+        document.getElementById("header").style = "box-shadow: none;";
+        // transition: 0.3s;
       }
     }
   </script>
@@ -41,7 +43,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact Us</a>
+              <a class="nav-link active" href="#contact">Contact Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Careers</a>
@@ -72,7 +74,8 @@
       <div class="layout">
         <div class="container">
           <div class="row">
-            <div class="col my-auto py-4" style="background: rgba(255, 255, 255, 0.932); border-radius: 7px;">
+            <div class="col my-auto py-4">
+              <!-- style="background: rgba(255, 255, 255, 0.932); border-radius: 7px;" -->
               <h4><b>Increasing shrimp farmer's efficiency through data</b></h4>
               <p class="intro"">
                 With
@@ -95,9 +98,9 @@
         </div>
       </div>
     </div>
-    <img src="assets/image/background.jpg" alt=""
+    <!-- <img src="assets/image/background.jpg" alt=""
       style="position: absolute; top: -130%; z-index: -188; width: 100%; opacity: 0.8;">
-    </div>
+    </div> -->
   </section>
   <section>
     <div class="layout">
@@ -354,7 +357,7 @@
         style="position: relative; z-index: -1; margin-top: -20%; margin-left: 45%;">
     </div>
   </section>
-  <section>
+  <section id="contact">
     <div class="margin-layout end-line">
       <div class="pt-3">
         <div class="container">

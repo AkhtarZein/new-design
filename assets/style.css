@@ -51,7 +51,8 @@
 }
 
 header {
-  background: transparent;
+  /* background: transparent; */
+  background: #fff;
 }
 
 .intro {

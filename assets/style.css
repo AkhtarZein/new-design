@@ -143,7 +143,8 @@ header {
 }
 
 .btn-modif {
-  background-image: linear-gradient(to bottom, #2b5cff, rgb(101, 114, 233));
+  /* background-image: linear-gradient(to bottom, #2b5cff, rgb(101, 114, 233)); */
+  background: #2b5cff;
   width: fit-content;
   padding: 7px 13px;
   box-shadow: 1px 1px 10px #9b9b9b;

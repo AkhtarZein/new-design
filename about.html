@@ -18,7 +18,7 @@
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("header").style =
-          "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important;";
+          "box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .100) !important; background: #fff;";
         // background: #fff; transition: 0.3s;
       } else {
         document.getElementById("header").style = "box-shadow: none;";
@@ -30,7 +30,33 @@
 </head>
 
 <body>
-  <header class="sticky-top" id="header">
+  <nav class="navbar navbar-expand-lg sticky-top" id="header">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand active" href="#"><img src="assets/image/new-logo-name.png" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <header class="sticky-top" id="header">
     <nav class="navbar navbar-expand-lg head-modif py-3">
       <div class="container-fluid">
         <a class="navbar-brand me-5" href="#"><img src="assets/image/new-logo-name.png" width="100px"></a>
@@ -53,55 +79,24 @@
         </div>
       </div>
     </nav>
-  </header>
-  <section style="background: #f0f7ff;
-  background-image: linear-gradient(to bottom right, hsl(212, 84%, 88%), #ffffff);">
-    <div style="padding: 100px 0;">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p>About Us</p>
-            <h1>From Farmers,</h1>
-            <h1>to Farmers</h1>
-            <p>We provide an end-to-end solution for shrimp farming through Computer Vision and AI.
-              Schedule Demo</p>
-          </div>
-          <div class="col">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
+  </header> -->
+  <!-- <section>
     <div style="width: 100%;">
       <img src="assets/image/background.jpg" style="width: 100%;">
-    </div>
-  </section>
-  <section>
-    <div class="layout">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p>Our Goal</p>
-            <h1>Lorem ipsum dolor sit</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </div> -->
+  <img src="assets/image/background.jpg" width="100%">
   <section>
     <div class="layout">
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p>Founder</p>
-            <h2>Meet The Founder</h2>
+            <h6>Founder</h6>
+            <h1>Meet The Founder</h1>
           </div>
         </div>
         <div class="row">
           <div class="col text-center">
-            <img src="assets/image/founder1.png" width="230px">
+            <img src="assets/image/founder1.png" width="230px" >
             <br>
             <br>
             <h4>Christopher Jason Sjari</h4>
@@ -118,8 +113,23 @@
       </div>
     </div>
   </section>
+  <section class="sec1">
+    <div class="layout" style="padding: 70px 0;">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Who We Are</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur debitis blanditiis nobis
+              praesentium amet molestias, libero id error magni suscipit dolore laboriosam, mollitia animi
+              aspernatur
+              nesciunt! Id modi consequuntur obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="contact">
-    <div class="margin-layout end-line">
+    <div class="margin-layout end-line" style="margin: 0px 0;">
       <div class="pt-3">
         <div class="container">
           <div class="row">

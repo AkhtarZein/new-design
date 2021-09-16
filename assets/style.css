@@ -92,7 +92,7 @@ header {
   text-align: center;
   background: #fff;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .200) !important;
-  padding-top: 20px;
+  padding: 20px 5px;
   border-radius: 8px;
   margin: 0 10px;
 }
